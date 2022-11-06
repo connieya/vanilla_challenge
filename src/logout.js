@@ -5,5 +5,3 @@ logoutBtn.addEventListener("click", () => {
   userInfo.classList.add("hidden");
   loginForm.style.display = "flex";
 });
-
-console.log(userInfo);
