@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button,
+button:focus {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#weather {
+  text-align: center;
+  margin: 16px auto;
+  font-size: 30px;
+}
+
+#container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #container h1 {
+  flex: 1 1 10%;
+} */
+
+#container #login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container #login-form input {
+  width: 100%;
+  height: 60px;
+  font-size: 28px;
+  /* flex: 1 1 10%; */
+}
+
+/* #container .user-info {
+  flex: 1 1 10%;
+}
+
+#container #main-form {
+  flex: 1 1 80%;
+} */
+#container #clock {
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+.hidden {
+  display: none;
+}
+
+#container #user-info #logout {
+  font-size: 16px;
+  width: 100px;
+  height: 30px;
+  margin: 0 10px;
+  background-color: antiquewhite;
+}
+#container #user-info {
+  display: flex;
+  margin: 10px auto;
+}
+
+#user-info #welcome {
+  color: rgb(250, 248, 227);
+  color: white;
+}
+
+#main-form #todo-form {
+  margin: 10px auto;
+}
+
+#main-form #todo-form input {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+
+#todo-list {
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
