@@ -1,5 +1,6 @@
 const weather = document.querySelector("#weather span:first-child");
 const city = document.querySelector("#weather span:last-child");
+const API_KEY = "6572b2544fd8dff5adbd7a8156b1cb4d";
 city.style.color = "white";
 weather.style.color = "white";
 function onGeoOk(position) {
